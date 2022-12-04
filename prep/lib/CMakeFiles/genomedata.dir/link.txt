@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgenomedata.a CMakeFiles/genomedata.dir/genomedata/GenomeData.cpp.o
+/usr/bin/ranlib libgenomedata.a

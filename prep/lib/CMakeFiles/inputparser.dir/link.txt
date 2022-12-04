@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinputparser.a CMakeFiles/inputparser.dir/inputparser/InputParser.cpp.o
+/usr/bin/ranlib libinputparser.a

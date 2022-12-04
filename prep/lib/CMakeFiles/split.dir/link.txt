@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsplit.a CMakeFiles/split.dir/split/split.cpp.o
+/usr/bin/ranlib libsplit.a

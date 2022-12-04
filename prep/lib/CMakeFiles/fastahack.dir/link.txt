@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfastahack.a CMakeFiles/fastahack.dir/fastahack/Fasta.cpp.o
+/usr/bin/ranlib libfastahack.a

@@ -1,0 +1,1 @@
+Fetch read counts from single-cell DNA sequencing data, and calculate GC-content and mappability for bins.

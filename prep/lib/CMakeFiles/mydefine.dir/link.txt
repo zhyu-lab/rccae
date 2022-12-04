@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmydefine.a CMakeFiles/mydefine.dir/mydefine/MyDefine.cpp.o
+/usr/bin/ranlib libmydefine.a
