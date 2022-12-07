@@ -35,9 +35,9 @@ cd ..
 chmod +x run_rccae.sh ./hmm/run_SCHMM.sh
 ```
 
-## Usage
+# Usage
 
-### Step 1: prepare input data
+## Step 1: prepare input data
 
 The “./prep/bin/prepInput” command is used to obtain read counts, GC-content and mappability data. 
 
@@ -82,7 +82,7 @@ Example:
 ./prep/bin/prepInput -b /path/to/sample.bam -r /path/to/hg19.fasta -m /path/to/hg19.bw -B /path/to/barcodes.txt -o example.txt
 ```
 
-### Step 2: train the CAE model
+## Step 2: train the CAE model
 
 The “./cae/train.py” Python script is used to learn latent representations of cells and cluster cells into distinct subpopulations.
 
@@ -106,7 +106,7 @@ Example:
 python ./cae/train.py --input ./data/example.txt --epochs 200 --batch_size 64 --lr 0.0001 --latent_dim 3 --seed 0 --output data
 ```
 
-### Step 3: detect single-cell CNAs
+## Step 3: detect single-cell CNAs
 
 The “./hmm/SCHMM.m” MATLAB script is used to call single-cell CNAs. 
 
@@ -135,6 +135,6 @@ Example:
 ```
 Type ./run_rccae.sh to learn details about how to use this script.
 
-## Contact
+# Contact
 
 If you have any questions, please contact zhyu@nxu.edu.cn.
