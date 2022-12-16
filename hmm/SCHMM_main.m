@@ -37,7 +37,7 @@ best_indx = candi_indx(I);
 
 [temp,indxs] = sort(candi_ll,'descend');
 scores = 1;
-acns = candi_acn(best_indx);
+acns = candi_acn(indxs(1));
 for i = 2:length(candi_acn)
     j = indxs(i-1);
     pre_indxs = indxs(1:i-1);
