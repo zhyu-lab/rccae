@@ -48,7 +48,7 @@ for i = 2:length(candi_acn)
     score = (candi_acn(pre_indxs)-candi_acn(k)+eps)./(candi_ll(pre_indxs)-candi_ll(k)+eps);
     scores = [scores score(end)];
     acns = [acns candi_acn(k)];
-    if sum(score >= 0.01) == i-1
+    if sum(score >= 0.02) == i-1 %0.01
         best_indx = candi_indx(k);
     end
 end
@@ -78,7 +78,7 @@ SCHMM_paras = cell(1,5);
 if best_indx == 0
     %---w---
     if isempty(init_SCHMM_paras{3})
-        o_0 = [-1 -0.6 -0.3 0];
+        o_0 = [-1.4 -1 -0.6 -0.3 0];
     else
         o_0 = init_SCHMM_paras{3};
     end
