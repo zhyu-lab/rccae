@@ -21,7 +21,7 @@ tv_del = depend_table(depend_table(:,2)~=0,3)<1;
 p_total_del = sum(p_states(tv_del,:),1);
 % disp(num2str(aCN))
 
-tv = (p_total_del<thres_del) & aCN < 4.5;
+tv = (p_total_del<thres_del) & aCN < 6;
 NoSolutionFlag = false;
 if ~any(tv)
     tv = ~tv;
@@ -78,7 +78,7 @@ SCHMM_paras = cell(1,5);
 if best_indx == 0
     %---w---
     if isempty(init_SCHMM_paras{3})
-        o_0 = [-1.4 -1 -0.6 -0.3 0];
+        o_0 = [-1.2 -1 -0.6 -0.3 0];
     else
         o_0 = init_SCHMM_paras{3};
     end
