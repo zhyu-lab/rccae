@@ -56,6 +56,7 @@ After the installation completes, you can reset the compiler using same commands
 ```bash
 sudo update-alternatives --config gcc
 sudo update-alternatives --config g++
+```
 
 # Usage
 
