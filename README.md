@@ -160,4 +160,4 @@ Type ./run_rccae.sh to learn details about how to use this script.
 
 # Contact
 
-If you have any questions, please contact zhyu@nxu.edu.cn.
+If you have any questions, please contact lfr_nxu@163.com.
